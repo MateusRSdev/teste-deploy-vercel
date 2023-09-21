@@ -1,3 +1,3 @@
 <?php
 
-echo "site no ar";
+echo "site no ar public";
