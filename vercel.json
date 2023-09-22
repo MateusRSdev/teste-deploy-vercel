@@ -8,6 +8,6 @@
         { "src": "/(.*)",  "dest": "/api/index.php" }
       ],
       
-        "buildCommand": "next build"
+        "buildCommand": "php composer.phar install"
       
 }
