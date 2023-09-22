@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "php composer.phar install"
+        "build": "vercel-php@0.6.0 composer.phar install"
     },
     "devDependencies": {
         "axios": "^1.1.2",
