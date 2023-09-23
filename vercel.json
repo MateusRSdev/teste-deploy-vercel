@@ -7,17 +7,7 @@
 
   "rewrites": [{ "source": "/", "destination": "/api" }],
 
-  
-  "routes": [
-      {
-          "src": "/(css|js)/(.*)",
-          "dest": "public/$1/$2"
-      },
-      {
-          "src": "/(.*)",
-          "dest": "/api/index.php"
-      }
-  ],
+ 
 
   "env": {
       "APP_NAME": "Vercel Laravel",
