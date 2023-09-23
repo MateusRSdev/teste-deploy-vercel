@@ -14,10 +14,6 @@
       {
           "src": "/(.*)",
           "dest": "/api/index.php"
-      },
-      {
-          "src": "/api/form",
-          "dest": "/api/api/form"
       }
   ],
 
