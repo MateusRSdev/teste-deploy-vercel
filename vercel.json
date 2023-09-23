@@ -5,10 +5,13 @@
     { "src": "/public/**", "use": "@vercel/static" }
 ],
 
-  "rewrites": [{ "source": "/", "destination": "/api" }],
-
-  
- 
+"routes": [
+  {
+    "src": "/(.*)",
+    "headers": { "Location": "/api" },
+    "status": 307
+  }
+],
 
   "env": {
       "APP_NAME": "Vercel Laravel",
