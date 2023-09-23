@@ -15,13 +15,7 @@
           "dest": "/api/index.php"
       }
   ],
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "/api/index.php"
-    }
-    
-  ],
+
   "env": {
       "APP_NAME": "Vercel Laravel",
       "APP_ENV": "production",
