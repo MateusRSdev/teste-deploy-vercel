@@ -5,17 +5,9 @@
     { "src": "/public/**", "use": "@vercel/static" }
 ],
 
-  
-  "routes": [
-      {
-          "src": "/(css|js)/(.*)",
-          "dest": "public/$1/$2"
-      },
-      {
-          "src": "(.*)",
-          "dest": "/api/(.*).php"
-      }
-  ],
+
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.php" }],
+
 
   "env": {
       "APP_NAME": "Vercel Laravel",
