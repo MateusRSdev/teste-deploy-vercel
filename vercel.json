@@ -11,10 +11,9 @@
           "src": "/(css|js)/(.*)",
           "dest": "public/$1/$2"
       },
-
       {
-          "src": "/api/:pos",
-          "dest": "/api/index.php/api/:pos"
+          "src": "/:pos",
+          "dest": "/api/index.php/:pos"
       }
   ],
 
