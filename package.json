@@ -1,9 +1,9 @@
 {
     "private": true,
     "type": "module",
-    "vercel-build": {
+    "scripts": {
         "dev": "vite",
-        "vercel-build": "vite build"
+        "vercel-build": "npm vite build"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
