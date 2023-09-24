@@ -3,7 +3,7 @@
     "type": "module",
     "vercel-build": {
         "dev": "vite",
-        "build": "vite build"
+        "vercel-build": "vite build"
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
