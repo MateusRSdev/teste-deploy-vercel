@@ -11,6 +11,6 @@ class indexController extends Controller
         return User::all();
     }
     public function post(Request $request){
-        dd($request->headers->origin[0]);
+    dd($request->header("origin"));
     }
 }
