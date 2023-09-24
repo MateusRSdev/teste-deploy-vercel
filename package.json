@@ -1,8 +1,8 @@
 {
     "private": true,
     "type": "module",
-    "scripts": {
-        "dev": "vercel-build",
+    "vercel-build": {
+        "dev": "vite",
         "build": "vite build"
     },
     "devDependencies": {
